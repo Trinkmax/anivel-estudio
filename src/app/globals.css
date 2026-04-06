@@ -25,6 +25,10 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Prevent horizontal overflow on mobile */
+  overflow-x: hidden;
 }
 
 /* Blueprint grid pattern */
@@ -44,6 +48,8 @@ body {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  /* Prevent horizontal overflow on mobile */
+  overflow-x: hidden;
 }
 
 /* Selection color */
@@ -52,19 +58,31 @@ html {
   color: #ffffff;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
+/* Custom scrollbar - hide on mobile for cleaner look */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f5f5f5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4d4;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a3a3a3;
+  }
 }
 
-::-webkit-scrollbar-track {
-  background: #f5f5f5;
+/* Prevent body scroll when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #d4d4d4;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #a3a3a3;
+/* Ensure tap highlight is subtle */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
 }

@@ -20,38 +20,38 @@ const icons = {
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 md:py-32 px-6 bg-anivel-50">
+    <section id="services" className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 bg-anivel-50">
       <div className="max-w-6xl mx-auto">
-        <SectionDivider label="Servicios" className="mb-16" />
+        <SectionDivider label="Servicios" className="mb-10 sm:mb-16" />
 
         <RevealOnScroll variant="fade-up">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-[0.15em] uppercase text-anivel-black text-center mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-[0.1em] sm:tracking-[0.15em] uppercase text-anivel-black text-center mb-10 sm:mb-16">
             Lo que hacemos
           </h2>
         </RevealOnScroll>
 
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
           {SERVICES.map((service, i) => {
             const Icon = icons[service.icon];
             return (
               <RevealOnScroll key={service.title} variant="fade-up" delay={i * 0.1}>
                 <motion.div
-                  className="group p-8 md:p-10 bg-white border border-anivel-200 hover:border-anivel-400 transition-all duration-500"
+                  className="group p-6 sm:p-8 md:p-10 bg-white border border-anivel-200 hover:border-anivel-400 transition-all duration-500 active:border-anivel-400"
                   whileHover={{ y: -4 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <Icon className="w-10 h-10 text-anivel-400 group-hover:text-anivel-black transition-colors duration-500 mb-6" />
+                  <Icon className="w-8 h-8 sm:w-10 sm:h-10 text-anivel-400 group-hover:text-anivel-black transition-colors duration-500 mb-4 sm:mb-6" />
 
-                  <h3 className="text-lg font-semibold tracking-[0.1em] uppercase text-anivel-black mb-4">
+                  <h3 className="text-base sm:text-lg font-semibold tracking-[0.08em] sm:tracking-[0.1em] uppercase text-anivel-black mb-3 sm:mb-4">
                     {service.title}
                   </h3>
 
-                  <p className="text-sm text-anivel-500 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-anivel-500 leading-relaxed">
                     {service.description}
                   </p>
 
                   {/* Animated bottom line */}
-                  <div className="mt-6 h-px bg-anivel-200 relative overflow-hidden">
+                  <div className="mt-4 sm:mt-6 h-px bg-anivel-200 relative overflow-hidden">
                     <motion.div
                       className="absolute inset-y-0 left-0 bg-anivel-black"
                       initial={{ width: "0%" }}

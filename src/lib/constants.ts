@@ -15,6 +15,7 @@ export const NAV_LINKS = [
   { label: "Contacto", href: "#contact" },
 ] as const;
 
+
 export const SERVICES = [
   {
     title: "Arquitectura Residencial",
