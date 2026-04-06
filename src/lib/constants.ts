@@ -98,6 +98,6 @@ export const PORTFOLIO_ITEMS = [
 
 export const CONTACT = {
   instagram: "https://www.instagram.com/anivel_mr?igsh=N3prYTZrZmYzbGFh&utm_source=qr",
-  whatsapp: "https://wa.me/5493533497871",
-  email: "contacto@anivel.ar",
+  whatsapp: "https://wa.me/5493533497871?text=Hola!%20Me%20gustar%C3%ADa%20hacer%20una%20consulta.",
+  email: "ribonemilagros@gmail.com",
 } as const;
