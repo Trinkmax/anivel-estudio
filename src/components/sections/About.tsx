@@ -83,7 +83,7 @@ export default function About() {
               />
 
               <p className="text-anivel-700 leading-relaxed text-sm">
-                Arquitecta con pasion por crear espacios que transforman la manera en que las personas
+                Arquitecta recibida de la Universidad Nacional de Córdoba (UNC), con pasion por crear espacios que transforman la manera en que las personas
                 viven y trabajan. Cada proyecto es una oportunidad para materializar ideas en estructuras
                 que dialogan con su entorno.
               </p>

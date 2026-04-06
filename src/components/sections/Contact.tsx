@@ -143,7 +143,7 @@ export default function Contact() {
             <div className="w-2 sm:w-3 h-2 sm:h-3 border border-anivel-300" />
             <div className="w-4 sm:w-8 h-px bg-anivel-300" />
             <span className="font-mono text-[8px] sm:text-[10px] text-anivel-400 tracking-widest uppercase">
-              Buenos Aires, Argentina
+              Córdoba, Argentina
             </span>
             <div className="w-4 sm:w-8 h-px bg-anivel-300" />
             <div className="w-2 sm:w-3 h-2 sm:h-3 border border-anivel-300" />
