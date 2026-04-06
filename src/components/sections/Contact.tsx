@@ -79,7 +79,7 @@ export default function Contact() {
                   Instagram
                 </span>
                 <span className="text-sm tracking-wider text-anivel-700 group-hover:text-anivel-black transition-colors">
-                  @anivel.estudio
+                  @anivel_mr
                 </span>
               </div>
             </a>

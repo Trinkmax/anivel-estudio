@@ -97,7 +97,7 @@ export const PORTFOLIO_ITEMS = [
 ] as const;
 
 export const CONTACT = {
-  instagram: "#",
-  whatsapp: "#",
+  instagram: "https://www.instagram.com/anivel_mr?igsh=N3prYTZrZmYzbGFh&utm_source=qr",
+  whatsapp: "https://wa.me/5493533497871",
   email: "contacto@anivel.ar",
 } as const;
