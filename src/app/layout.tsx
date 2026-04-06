@@ -51,8 +51,10 @@ export default function RootLayout({
       lang="es"
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} antialiased`}
     >
-      <body className="min-h-screen bg-white text-anivel-black font-sans">
-        {children}
+      <body className="min-h-screen bg-anivel-black text-anivel-black font-sans">
+        <div className="bg-white min-h-screen flex flex-col">
+          {children}
+        </div>
       </body>
     </html>
   );
