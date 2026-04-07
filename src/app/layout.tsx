@@ -23,13 +23,13 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "A Nivel | Estudio de Arquitectura - Arq. Milagros Ribone",
   description:
-    "Estudio de arquitectura de Milagros Ribone. Diseno residencial, comercial e interiorismo. Cada espacio, a nivel.",
+    "Estudio de arquitectura de Milagros Ribone. Diseño residencial, comercial e interiorismo. Cada espacio, a nivel.",
   keywords: [
     "arquitectura",
     "estudio de arquitectura",
     "Milagros Ribone",
     "A Nivel",
-    "diseno residencial",
+    "diseño residencial",
     "interiorismo",
     "arquitectura comercial",
   ],

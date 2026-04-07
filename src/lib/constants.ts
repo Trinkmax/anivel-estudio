@@ -2,7 +2,7 @@ export const SITE = {
   name: "A Nivel",
   title: "A Nivel | Estudio de Arquitectura - Arq. Milagros Ribone",
   description:
-    "Estudio de arquitectura de Milagros Ribone. Diseno residencial, comercial e interiorismo. Cada espacio, a nivel.",
+    "Estudio de arquitectura de Milagros Ribone. Diseño residencial, comercial e interiorismo. Cada espacio, a nivel.",
   url: "https://anivel.ar",
 } as const;
 
@@ -20,7 +20,7 @@ export const SERVICES = [
   {
     title: "Arquitectura Residencial",
     description:
-      "Diseno de viviendas que reflejan la identidad de cada cliente. Desde casas unifamiliares hasta edificios de departamentos.",
+      "Diseño de viviendas que reflejan la identidad de cada cliente. Desde casas unifamiliares hasta edificios de departamentos.",
     icon: "home" as const,
   },
   {
@@ -32,7 +32,7 @@ export const SERVICES = [
   {
     title: "Interiorismo",
     description:
-      "Diseno de interiores que transforman espacios. Cada detalle pensado para crear ambientes unicos y funcionales.",
+      "Diseño de interiores que transforman espacios. Cada detalle pensado para crear ambientes unicos y funcionales.",
     icon: "interior" as const,
   },
   {
@@ -51,7 +51,7 @@ export const PROCESS_STEPS = [
   },
   {
     number: "02",
-    title: "Diseno",
+    title: "Diseño",
     description: "Desarrollamos el proyecto a tu medida con propuestas creativas y funcionales.",
   },
   {

@@ -95,7 +95,7 @@ export default function About() {
               </p>
 
               <p className="text-anivel-700 leading-relaxed text-sm">
-                Desde A Nivel, acompano a cada cliente en el proceso de hacer realidad su proyecto,
+                Desde A Nivel, acompaño a cada cliente en el proceso de hacer realidad su proyecto,
                 con compromiso, creatividad y rigurosidad tecnica.
               </p>
 
